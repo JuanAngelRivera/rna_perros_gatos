@@ -34,7 +34,7 @@ for i in range(1, num_labels):
     area = stats[i, cv2.CC_STAT_AREA]
     print(area)
 
-    if area >= 500:
+    if area >= 0:
         x = stats[i, cv2.CC_STAT_LEFT]
         y = stats[i, cv2.CC_STAT_TOP]
         w = stats[i, cv2.CC_STAT_WIDTH]

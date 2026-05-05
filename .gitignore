@@ -1,0 +1,37 @@
+# 🔹 Entorno virtual
+venv/
+env/
+.venv/
+
+# 🔹 Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 🔹 Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# 🔹 Archivos de VS Code
+.vscode/
+
+# 🔹 Logs
+*.log
+
+# 🔹 TensorFlow / modelos
+*.h5
+*.keras
+saved_model/
+
+extra
+
+# 🔹 Archivos temporales
+*.tmp
+*.temp
+
+# 🔹 Matplotlib cache
+.matplotlib/
+
+# 🔹 Pip cache
+pip-wheel-metadata/
